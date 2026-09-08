@@ -1,0 +1,30 @@
+body {
+    background-color: lightblue;
+}
+
+.contenedor-principal {
+    font-size: 20px;
+}
+
+.titulo-subrayado {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.texto-destacado {
+    color: navy;
+    font-weight: bold;
+}
+
+.texto-mayusculas-justificado {
+    text-transform: uppercase;
+    text-align: justify;
+}
+
+.texto-pequeno {
+    font-size: 12px;
+}
+
+.texto-cursiva {
+    font-style: italic;
+}
