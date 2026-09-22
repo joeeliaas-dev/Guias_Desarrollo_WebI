@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@700&display=swap');
+
+:root {
+    --color-fondo: #f4f7f6;
+    --color-principal: #2c3e50;
+    --color-secundario: #3498db;
+    --color-texto: #333333;
+    --color-blanco: #ffffff;
+    --fuente-titulos: 'Playfair Display', Georgia, serif;
+    --fuente-texto: 'Montserrat', Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    font-family: var(--fuente-texto);
+    font-size: 16px;
+}
+
+header {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+    text-align: center;
+    padding: 50px 20px;
+    border-bottom: 5px solid var(--color-secundario);
+}
+
+header h1 {
+    font-family: var(--fuente-titulos);
+    font-size: 3em;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: #1a252f;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    display: block;
+    color: var(--color-blanco);
+    text-decoration: none;
+    padding: 15px 25px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: var(--color-secundario);
+    color: var(--color-blanco);
+}
+
+section {
+    background-color: var(--color-blanco);
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-family: var(--fuente-titulos);
+    color: var(--color-principal);
+    font-size: 2em;
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--color-secundario);
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 0.9em;
+}
+
+#sobre-mi p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.perfil-contenedor {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.foto-perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid var(--color-secundario);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.lista-habilidades {
+    margin-left: 40px;
+    line-height: 1.8;
+}
+
+.contacto-link {
+    color: var(--color-secundario);
+    font-weight: bold;
+    text-decoration: none;
+}
