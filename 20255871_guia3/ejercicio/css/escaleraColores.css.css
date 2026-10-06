@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #97ddac;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+div {
+    position: absolute;
+    top: 150px; 
+    left: 50px; 
+    transition: transform 0.3s ease;
+}
+
+#diez_de_diamantes {
+    z-index: 1;
+    left: 100px;
+}
+
+#sota_de_diamantes {
+    z-index: 2;
+    left: 150px; 
+    top: 170px;  
+}
+
+#reina_de_diamantes {
+    z-index: 3;
+    left: 200px;
+    top: 190px;
+}
+
+#rey_de_diamantes {
+    z-index: 4;
+    left: 250px;
+    top: 210px;
+}
+
+#as_de_diamantes {
+    z-index: 5;
+    left: 300px;
+    top: 230px;
+}
+
+div:hover {
+    z-index: 10;
+    transform: translateY(-20px);
+    cursor: pointer;
+}
