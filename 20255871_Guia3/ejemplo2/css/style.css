@@ -133,7 +133,7 @@ a {
 
 .container {
     min-height: 100vh;
-    background-image: url("/20255871_Guia3/ejemplo2/images/fondo-bosque.jpg");
+    background-image: url("../images/fondo-bosque.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
